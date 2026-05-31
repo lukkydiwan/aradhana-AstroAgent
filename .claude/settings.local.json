@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "mcp__Claude_Preview__preview_start",
+      "PowerShell(python -m py_compile \"D:\\\\CHODER\\\\aradhana\\\\backend\\\\app\\\\tools\\\\birth_chart.py\" \"D:\\\\CHODER\\\\aradhana\\\\backend\\\\app\\\\tools\\\\transits.py\")",
+      "PowerShell(if \\($?\\) { \"Syntax OK\" })",
+      "PowerShell(Get-ChildItem D:\\\\CHODER\\\\aradhana -Recurse -Depth 4 | Where-Object {!$_.PSIsContainer} | Select-Object -ExpandProperty FullName)",
+      "PowerShell(python --version)",
+      "PowerShell(pip show pyswisseph 2>$null)",
+      "PowerShell(pip install pyswisseph --dry-run 2>&1)",
+      "PowerShell(& \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" --version 2>$null; & \"$env:LOCALAPPDATA\\\\Programs\\\\GitHub CLI\\\\gh.exe\" --version 2>$null)"
+    ]
+  }
+}
